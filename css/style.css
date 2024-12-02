@@ -518,6 +518,7 @@ header .links li a:hover {
 }
 /* Shop Banner Styling */
 .shop-banner {
+  background: url(../files/shop-banner.png) center;
   flex: 1;
   min-height: 360px;
   background-size: cover;
@@ -564,8 +565,7 @@ footer {
   float: left;
   background-color: #272222;
   height: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: calc(var(--seciton-padding) / 2) 0 0;
 }
 footer * {
   color: #ebebeb;
